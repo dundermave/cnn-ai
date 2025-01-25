@@ -8,10 +8,10 @@
    git clone https://github.com/dundermave/cnn-ai.git
 
 2. **Download Anaconda**  
-   Download and install Anaconda from the official website: [https://www.anaconda.com/](https://www.anaconda.com/).
+   Download and install **Anaconda** from the official website: [https://www.anaconda.com/](https://www.anaconda.com/).
 
 3. **Set up the environment**  
-   Navigate to the project directory using Anaconda Prompt and run the following command:
+   Navigate to the project directory using **Anaconda Prompt** and run the following command:
    ```bash
    conda env create -f environment.yml
    conda activate cnn-env
@@ -22,7 +22,7 @@
 ## Steps to Download the Dataset
 
 1. **Run the Data Loader**  
-   Open the file `data_loader.ipynb` in Jupyter Notebook or any compatible IDE.
+   Open the file `data_loader.ipynb` in **Jupyter Notebook** or any **compatible IDE** (Visual Studio will ask to install Juyper and Python packages).
 
 2. **Execute All Cells**  
    Run all cells in the notebook sequentially to download the **ChestMNIST** dataset. The notebook is configured to fetch the **ChestMNIST** data from the **MedMNIST database** automatically.
@@ -41,5 +41,27 @@
   Note: You only need to run this process once unless the dataset needs to be refreshed or updated.
   
 ---
+
+# Wandb Setup
+
+This guide explains how to set up Wandb for your project.
+
+---
+
+## Prerequisites
+
+- Make sure you have Python installed on your local machine.
+- Create a Wandb account if you don’t have one: [https://wandb.com](https://wandb.com).
+
+---
+
+## Steps to Set Up Wandb
+
+1. **Install Wandb**  
+   Run the following command to install the Wandb Python library:
+   ```bash
+   pip install wandb
+
+
 
 
